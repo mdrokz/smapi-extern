@@ -7,7 +7,6 @@ Main
 --cs out
 
 --net-lib StardewValley.GameData.dll
-
 --net-lib StardewValley.exe
 --net-lib MonoGame.Framework.dll
 
