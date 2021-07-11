@@ -1,10 +1,17 @@
 // import smapi.Mod;
 import cs.Syntax;
 
-import smapi.Mod;
+// import smapi.Mod;
 
-class Main extends Mod {
+@:keep
+class V {
+    @:property("get","null") var f: String;
+}
+
+class Main {
     static function main() {
+
+        var v: V = null;
     
         trace("hello");
     }

@@ -4,14 +4,12 @@ import cs.system.EventArgs;
 
 import stardewvalley.menus.IClickableMenu;
 
+import microsoft.xna.framework.graphics.SpriteBatch;
+
 extern class RenderedActiveMenuEventArgs extends EventArgs {
-	/*********
+/*********
 		** Accessors
 	*********/
-	/// <summary>The previous menu.</summary>
-	@:property extern var OldMenu:IClickableMenu;
-
-	/// <summary>The current menu.</summary>
-	@:property extern var NewMenu(default, never):IClickableMenu;
-
+	/// <summary>The sprite batch being drawn. Add anything you want to appear on-screen to this sprite batch.</summary>
+	extern var SpriteBatch:SpriteBatch;
 }

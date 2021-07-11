@@ -1,6 +1,6 @@
 package smapi.events.interfaces;
 
-import smapi.events.display.*;
+import smapi.events.args.display.*;
 import cs.system.EventHandler_1;
 
 extern interface IDisplayEvents {

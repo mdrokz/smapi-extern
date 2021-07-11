@@ -1,2 +1,3 @@
 out
-StardewValley.*
+*.dll
+*.exe
