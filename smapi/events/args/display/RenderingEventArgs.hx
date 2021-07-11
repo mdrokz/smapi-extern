@@ -1,10 +1,10 @@
-package smapi.events;
+package smapi.events.args.display;
 
 import cs.system.EventArgs;
 
 import stardewvalley.menus.IClickableMenu;
 
-extern class RenderingActiveMenuEventArgs extends EventArgs {
+extern class RenderingEventArgs extends EventArgs {
 	/*********
 		** Accessors
 	*********/

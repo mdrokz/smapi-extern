@@ -1,6 +1,6 @@
-package smapi.interfaces;
+package smapi.events.interfaces;
 
-import smapi.events.MenuChangedEventArgs;
+import smapi.events.display.*;
 import cs.system.EventHandler_1;
 
 extern interface IDisplayEvents {

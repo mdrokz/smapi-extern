@@ -1,10 +1,10 @@
-package smapi.events;
+package smapi.events.args.display;
 
 import cs.system.EventArgs;
 
 import stardewvalley.menus.IClickableMenu;
 
-extern class RenderedWorldEventArgs extends EventArgs {
+extern class MenuChangedEventArgs extends EventArgs {
 	/*********
 		** Accessors
 	*********/
@@ -20,5 +20,5 @@ extern class RenderedWorldEventArgs extends EventArgs {
 	/// <summary>Construct an instance.</summary>
 	/// <param name="oldMenu">The previous menu.</param>
 	/// <param name="newMenu">The current menu.</param>
-	@:internal extern function MenuChangedEventArgs(oldMenu:IClickableMenu, newMenu:IClickableMenu):Void;
+	@:internal extern function new(oldMenu:IClickableMenu, newMenu:IClickableMenu):Void;
 }

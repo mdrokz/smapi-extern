@@ -5,7 +5,7 @@ extern interface IMod {
 		** Accessors
 	*********/
 	///Provides simplified APIs for writing mods.
-	@:property extern var Helper(get, null):IMod;
+	@:property extern var Helper(get, null):IModHelper;
 
 	/// <summary>Writes messages to the console and log file.</summary>
 	@:property extern var Monitor(get, null):IMod;
