@@ -1,0 +1,18 @@
+--class-path .
+
+smapi
+
+Main
+
+--cs out
+
+--net-lib StardewValley.GameData.dll
+
+--net-lib StardewValley.exe
+
+-D no-compilation
+
+# -D dll
+
+# --dce full
+
