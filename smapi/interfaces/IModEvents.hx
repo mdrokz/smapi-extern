@@ -1,6 +1,8 @@
 package smapi.interfaces;
 
-import smapi.interfaces.IDisplayEvents;
+import smapi.events.interfaces.IDisplayEvents;
+import smapi.events.interfaces.IGameLoopEvents;
+
 
 extern interface IModEvents {
 	/// <summary>Events related to UI and drawing to the screen.</summary>
