@@ -8,7 +8,7 @@ extern interface IMod {
 	@:property extern var Helper(get, null):IModHelper;
 
 	/// <summary>Writes messages to the console and log file.</summary>
-	@:property extern var Monitor(get, null):IMod;
+	@:property extern var Monitor(get, null):IMonitor;
 	/// <summary>The mod's manifest.</summary>
 	@:property extern var ModManifest(get, null):IMod;
 
